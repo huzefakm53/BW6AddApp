@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/AddNumbers" xmlns:tns="http://www.example.org/AddNumbers" elementFormDefault="qualified">
+
+
+    <complexType name="Number">
+    	<sequence>
+    		<element name="num1" type="int"></element>
+    		<element name="num2" type="int"></element>
+    	</sequence>
+    </complexType>
+
+    <element name="Num" type="tns:Number"></element>
+</schema>

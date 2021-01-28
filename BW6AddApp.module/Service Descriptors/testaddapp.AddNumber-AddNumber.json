@@ -1,0 +1,53 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "version" : "1.0",
+    "title" : "Summary about the new REST service.",
+    "description" : "Summary about the new REST service."
+  },
+  "host" : "",
+  "basePath" : "/",
+  "schemes" : [ "http" ],
+  "paths" : {
+    "/addnumber" : {
+      "post" : {
+        "summary" : "",
+        "description" : "",
+        "operationId" : "post-addnumber",
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "name" : "body",
+          "in" : "body",
+          "description" : "",
+          "schema" : {
+            "$ref" : "#/definitions/Num"
+          },
+          "required" : true
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "a integer to be returned",
+            "schema" : {
+              "type" : "integer"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions" : {
+    "Num" : {
+      "type" : "object",
+      "required" : [ "num1", "num2" ],
+      "properties" : {
+        "num1" : {
+          "type" : "integer"
+        },
+        "num2" : {
+          "type" : "integer"
+        }
+      }
+    }
+  }
+}

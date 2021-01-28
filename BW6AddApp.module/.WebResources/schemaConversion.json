@@ -1,0 +1,12 @@
+{"records": [
+    {
+        "jsonSchemaLocation": "/BW6AddApp.module/Service Descriptors/testaddapp.module.AddNumber-AddNumber.json",
+        "conversionType": "linked",
+        "xsdSchemaTargetNamespace": "http://www.example.org/Numbers"
+    },
+    {
+        "jsonSchemaLocation": "/BW6AddApp.module/Service Descriptors/testaddapp.AddNumber-AddNumber.json",
+        "conversionType": "linked",
+        "xsdSchemaTargetNamespace": "http://www.example.org/AddNumbers"
+    }
+]}

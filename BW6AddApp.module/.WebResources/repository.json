@@ -1,0 +1,17 @@
+{
+    "records": [{
+        "name": "Cloud",
+        "items": [],
+        "url": "https://integration.cloud.tibco.com:443"
+    }],
+    "resources": [
+        {
+            "location": "Service Descriptors/testaddapp.module.AddNumber-AddNumber.json",
+            "type": "generated"
+        },
+        {
+            "location": "Service Descriptors/testaddapp.AddNumber-AddNumber.json",
+            "type": "generated"
+        }
+    ]
+}
